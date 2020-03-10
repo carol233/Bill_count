@@ -40,6 +40,6 @@ print("Gas：Start from " + str(START_DATE) + " to " +
       str(daysBetween(END_DATE, START_DATE)) + " days")
 avg = FEE * 1.0 / all_day
 print("Avg per person per day", avg)
-print("Hao days: ", Hao_day, format(money(Hao_day), '.2f'))
-print("Carol days: ", Carol_day, format(money(Carol_day), '.2f'))
-print("Kiki days: ", Kiki_day, format(money(Kiki_day), '.2f'))
+print("Hao days: ", Hao_day, str(Hao_in), "to", str(Hao_out), format(money(Hao_day), '.2f'))
+print("Carol days: ", Carol_day, str(Carol_in), "to", str(Carol_out), format(money(Carol_day), '.2f'))
+print("Kiki days: ", Kiki_day, str(Kiki_in), "to", str(Kiki_out), format(money(Kiki_day), '.2f'))
