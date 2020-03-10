@@ -35,7 +35,9 @@ days_count.append(Kiki_day)
 for item in days_count:
     all_day += item
 
-print("Gas：Start from " + str(START_DATE) +" to " + str(END_DATE) + " totally 52 days")
+print("Gas：Start from " + str(START_DATE) + " to " +
+      str(END_DATE) + " totally " +
+      str(daysBetween(END_DATE, START_DATE)) + " days")
 avg = FEE * 1.0 / all_day
 print("Avg per person per day", avg)
 print("Hao days: ", Hao_day, format(money(Hao_day), '.2f'))
